@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUZNeWtnR1RlWVRNRjRYTzhzRWp2MEhYdkVNWTRMc1ZLdFV4aENZS2Qwcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZlFTb1pNSkhCSXdIMlYwaWlRTGN5RFA5a2xUMFUrRENPQjVWbzBIN1BGWT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJvT3JyVitSdk5kaHhNSTR6c3p2anRGZ3F3aGZFcEV4V0xCUWwvVHF2cWxVPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHTjkwM1NJQy9vd1djRHBjUCtISlVVcDRCYnphTnZxVjdWTHNibjBHT1NzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1IWkNFSWhNT25KOCtPTTJmL3h3SnlGYmx3SU1jdnUzT2prYmJvS3FObFE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVLekpqNGpIZ1Q4MVN6ZDg1aXVlZFltanlMQ081VzNHUWU4dGc5cmhmbUk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSUFFWWxlM3pqK1RvdmhVNUtLVUZnYXl0RlI0TExZZlorVzJOUGt0Nmltbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRUo2Znk1SmVhR3EzN3hOcVJzZHJMS3JtWHJKSXhHU1NHaGVBMTJ1 : process.env.SESSION_ID,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
 ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
